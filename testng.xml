@@ -7,9 +7,9 @@
 	</listeners>	
 	<test thread-count="5" name="Test">
 		<classes>
-			<!--<class name="api.Tests.DataDrivenTest"/>-->
+			<class name="api.Tests.DataDrivenTest"/>
 			<!--<class name="api.Tests.UserTests" />-->
-			<class name="api.Tests.UserTests2" /><!--For by using Properties File -->
+			<!--<class name="api.Tests.UserTests2" />For by using Properties File -->
 		</classes> 
 	</test> <!--Test -->
 </suite> <!--UserSuite -->
