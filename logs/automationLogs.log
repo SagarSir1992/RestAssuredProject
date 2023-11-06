@@ -6,3 +6,11 @@
 2023-11-04 11:49:32,788 INFO a.T.UserTests [main] *********User is Updated*********
 2023-11-04 11:49:32,802 INFO a.T.UserTests [main] *********Deleting User*********
 2023-11-04 11:49:34,512 INFO a.T.UserTests [main] *********User Deleted*********
+2023-11-04 19:03:06,095 INFO a.T.UserTests [main] *********Creating User*********
+2023-11-04 19:03:16,498 INFO a.T.UserTests [main] *********User Created*********
+2023-11-04 19:03:16,504 INFO a.T.UserTests [main] *********Reading User*********
+2023-11-04 19:03:18,144 INFO a.T.UserTests [main] *********Userinfo is displayed*********
+2023-11-04 19:03:18,150 INFO a.T.UserTests [main] *********Updating User*********
+2023-11-04 19:03:19,823 INFO a.T.UserTests [main] *********User is Updated*********
+2023-11-04 19:03:19,829 INFO a.T.UserTests [main] *********Deleting User*********
+2023-11-04 19:03:21,475 INFO a.T.UserTests [main] *********User Deleted*********
