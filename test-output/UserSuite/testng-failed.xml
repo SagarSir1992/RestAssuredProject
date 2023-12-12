@@ -15,6 +15,21 @@
           <include name="testDeleteUser"/>
         </methods>
       </class> <!-- api.Tests.UserTests2 -->
+      <class name="api.Tests.UserTests">
+        <methods>
+          <include name="setUpData"/>
+          <include name="testUpdateUser"/>
+          <include name="testDeleteUser"/>
+          <include name="testGetUser"/>
+          <include name="testPostUser"/>
+        </methods>
+      </class> <!-- api.Tests.UserTests -->
+      <class name="api.Tests.DataDrivenTest">
+        <methods>
+          <include name="testDeleteUser" invocation-numbers="0 1 2 3"/>
+          <include name="testPostUser" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- api.Tests.DataDrivenTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [UserSuite] -->
