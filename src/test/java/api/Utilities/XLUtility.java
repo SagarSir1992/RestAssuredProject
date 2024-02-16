@@ -56,7 +56,7 @@ public class XLUtility {
 		 row=sheet.getRow(rownum);
 		 cell=row.getCell(colnum);	 
 		 
-		 DataFormatter formatter=new DataFormatter();
+		 DataFormatter formatter=new DataFormatter();//To get the data from the cell as it is(exactly as it appears in Excel)
 		 String data;
 		 try {
 			 data=formatter.formatCellValue(cell);

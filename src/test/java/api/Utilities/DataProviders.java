@@ -18,7 +18,7 @@ public class DataProviders {
 	    String[][] data = new String[rowCount][colCount];
         for (int i = 0; i < rowCount; i++) {
             for (int j = 0; j < colCount; j++) {
-                data[i][j] = xlUtil.getCellData("Sheet1", i + 1, j); // Adjust the row index accordingly
+                data[i][j] = xlUtil.getCellData("Sheet1", i + 1, j); // Adjust the row index accordingly i+1 is there as there is a header row.
             }
         }
         
@@ -37,7 +37,7 @@ public class DataProviders {
 	    String[] data =  new String[rowCount];
         for (int i = 1; i <= rowCount; i++) {
            
-                data[i-1] = xlUtil.getCellData("Sheet1", i, 1); // Adjust the row index accordingly
+                data[i-1] = xlUtil.getCellData("Sheet1", i, 1); // Adjust the row index accordingly.
              }
         
         return data;		

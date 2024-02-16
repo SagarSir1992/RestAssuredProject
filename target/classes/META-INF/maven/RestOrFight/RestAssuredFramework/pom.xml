@@ -16,8 +16,7 @@
 					<version>3.2.1</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suitxmlFile>testng.xml</suitxmlFile><!-- put your
-							configurations here -->
+							<suitxmlFile>testng.xml</suitxmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>

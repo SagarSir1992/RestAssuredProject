@@ -27,7 +27,7 @@ public class ExtentReportManager implements ITestListener  {
 		
 		sparkReporter=new ExtentSparkReporter(".\\reports\\"+repName);
 		
-		sparkReporter.config().setDocumentTitle("RestAssured project repoort");
+		sparkReporter.config().setDocumentTitle("RestAssured project report");
 		sparkReporter.config().setReportName("Pet store user APIs");
 		sparkReporter.config().setTheme(Theme.DARK);		
 		
@@ -38,7 +38,7 @@ public class ExtentReportManager implements ITestListener  {
 		extent.setSystemInfo("UserName", System.getProperty("user.name"));
 		extent.setSystemInfo("Environment", "QA");
 		extent.setSystemInfo("Application", "Pet store user APIs");
-		extent.setSystemInfo("user", "Sagar Choudhar");
+		extent.setSystemInfo("User", "Sagar Choudhari");
 	}
 	
 	public void onTestSuccess(ITestResult result) {
