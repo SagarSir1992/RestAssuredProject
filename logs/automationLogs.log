@@ -86,3 +86,11 @@
 2024-02-24 18:11:11,925 INFO a.T.UserTests [main] *********User is Updated*********
 2024-02-24 18:11:11,929 INFO a.T.UserTests [main] *********Deleting User*********
 2024-02-24 18:11:13,453 INFO a.T.UserTests [main] *********User Deleted*********
+2024-03-18 13:44:32,737 INFO a.T.UserTests [main] *********Creating User*********
+2024-03-18 13:44:36,158 INFO a.T.UserTests [main] *********User Created*********
+2024-03-18 13:44:36,174 INFO a.T.UserTests [main] *********Reading User*********
+2024-03-18 13:44:37,620 INFO a.T.UserTests [main] *********Userinfo is displayed*********
+2024-03-18 13:44:37,639 INFO a.T.UserTests [main] *********Updating User*********
+2024-03-18 13:44:39,095 INFO a.T.UserTests [main] *********User is Updated*********
+2024-03-18 13:44:39,112 INFO a.T.UserTests [main] *********Deleting User*********
+2024-03-18 13:44:40,567 INFO a.T.UserTests [main] *********User Deleted*********
